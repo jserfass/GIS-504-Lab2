@@ -1,0 +1,27 @@
+#map{
+  width: auto;
+  height: 98vh
+}
+h1 {
+  font-family: Georgia, sans-serif;
+  color: #525355;
+  font-size: 65px;
+  text-shadow: 6px 6px 15px white;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-family: Georgia, sans-serif;
+  color: #525355;
+  font-size: 20px;
+  text-align: center;
+}
+#transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid #525355;
+  opacity: 0.7;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+               }

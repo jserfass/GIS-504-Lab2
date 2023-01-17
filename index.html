@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Turf.js with Mapbox</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><!--These settings are ideal for full-screen mobile use-->
+	<!-- mapbox links -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+	<script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+	<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+	<div id='map'>
+	</div>
+	<div id="transbox" style="position: absolute; left: 0; top: 0;"><h1>Proximity of Nearest Hospitals to Tacoma Public Libraries</h1><h2>This Mapbox map enables users to locate the nearest hospital for each of the Tacoma Public Libraries. Clicking on a library symbol (book symbol) will highlight (with a blue circle) the nearest hospital (cross symbol), and initialize a pop up window with the name of the library, along with hospital information - including distance. Distance is "as the crow flies" and does not consider road networks.</h2></div>
+	<script src="scripts.js"></script>
+	<script src="data/libraries.js"></script>
+	<script src="data/hospitals.js"></script>
+</body>
+</html>
